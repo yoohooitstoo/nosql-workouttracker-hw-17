@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
 const viewRoutes = require("./routes/view-routes");
-const apiroutes = require("./routes/api-routes");
+const apiRoutes = require("./routes/api-routes");
 
 const PORT = process.env.PORT || 3000;
 
@@ -22,7 +22,7 @@ app.use(apiRoutes);
 
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/workout",
-  { useNewUrlParser: true, useUnifiedTopology: true }
+  { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }
 );
 const connection = mongoose.connection;
 
