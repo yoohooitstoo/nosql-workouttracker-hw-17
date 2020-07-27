@@ -1,4 +1,5 @@
 const express = require("express");
+var path = require("path");
 const router = express.Router();
 
 router.get("/", function (req, res) {
@@ -9,7 +10,7 @@ router.get("/exercise", function (req, res) {
   res.sendFile(path.join(__dirname, "../public/exercise.html"));
 });
 
-// blog route loads blog.html
+
 router.get("/stats", function (req, res) {
   res.sendFile(path.join(__dirname, "../public/stats.html"));
 });
