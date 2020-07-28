@@ -1,53 +1,59 @@
 # nosql-workouttracker-hw-17
 
-# Unit 17 Nosql Homework: Workout Tracker
+![badmath](https://img.shields.io/badge/license-MIT-brightgreen)
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+## Table of Contents
 
-## User Story
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [URL](#url)
+* [License](#mit_license)
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+## Installation
 
-## Business Context
+1. Clone the repo.
+2. Run, npm init -y and npm install command in your terminal.
+3. Then run node server.js command in your terminal.
+4. Follow the link generated in your terminal.
+5. There is also a heroku link down below.
 
-A consumer will reach their fitness goals quicker when they track their workout progress.
+## Usage
 
-## Acceptance Criteria
+Fitness Tracker is an application that uses nosql and mlab to provide the user with a persistent list of workouts that they have done in the past 7 days. The user has the ability to log new exercises as well.
 
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+The following screenshot demonstrates the application functionality:
 
-The user should be able to:
+![HomePage demo](public/images/homepage.png)
+![New Exercise demo](public/images/newexercise.png)
+![Dashboard demo](public/images/dashboard.png)
 
-  * Add exercises to a previous workout plan.
+## Credits
 
-  * Add new exercises to a new workout plan.
+Other than conferring with TAs, tutors, and my peers; yes, This was a solo project.
 
-  * View multiple the combined weight of multiple exercises on the `stats` page.
+## URL
 
-## Commit Early and Often
+[Link to Deployed Workout Tracker](https://radiant-sierra-45327.herokuapp.com/)
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+## MIT_License
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+Copyright (c) [2020] [Stuart Scott]
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Follow these guidelines for committing:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the Github repository
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
